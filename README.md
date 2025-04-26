@@ -1,20 +1,22 @@
-# Keylogger
+# Simple Keylogger
 
-A lightweight and simple keylogger built with Python, using pynput to capture keystrokes and smtplib to send logs via email.
+A lightweight and simple keylogger built in Python, using `pynput` to capture keystrokes and `smtplib` to send logs via email.
 
-Setup:
-  Clone the repository:
-    git clone https://github.com/RaviRajGhorsai/Simple-Keylogger.git
-    cd Simple-Keylogger
+---
 
-Install dependencies:
-  pip install pynput
+## 📋 Features
 
-Edit your credentials:
-  Open the Python file and update:
-    sender_email
-    receiver_email
-    password (use an App Password if you have 2FA enabled)
+- Captures all keyboard input
+- Writes keystrokes to a local `log.txt` file
+- Sends captured logs to your email address periodically
+- Lightweight and easy to use
 
-Run the keylogger:
-  python keylogger.py
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone this repository:**
+
+   ```bash
+   git clone https://github.com/RaviRajGhorsai/Simple-Keylogger.git
+   cd Simple-Keylogger
